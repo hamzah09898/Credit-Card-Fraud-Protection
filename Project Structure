@@ -1,0 +1,38 @@
+credit-card-fraud-detection/
+│
+├── data/
+│   ├── raw/
+│   │   └── creditcard.csv
+│   ├── processed/
+│   │   └── cleaned_data.csv
+│
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_feature_engineering.ipynb
+│   ├── 03_model_training.ipynb
+│   ├── 04_model_evaluation.ipynb
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   ├── model_evaluation.py
+│   └── predict.py
+│
+├── models/
+│   ├── logistic_regression.pkl
+│   ├── random_forest.pkl
+│   └── xgboost.pkl
+│
+├── reports/
+│   ├── fraud_detection_report.pdf
+│   └── performance_metrics.txt
+│
+├── app/
+│   ├── app.py
+│   └── requirements.txt
+│
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
